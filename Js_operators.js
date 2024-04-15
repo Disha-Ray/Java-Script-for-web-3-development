@@ -34,11 +34,20 @@ function getFloor(x){
 }
 console.log(getFloor(x));
 
+// stricct equality operator 
+if(a===b) {                // === operator checks both data type and the value
+  console.log("it's same);
+  }
+else {
+  console.log("Not same");
+}
 
-
-
-
-
+if(a==b){                 //  == only checks value and not data type
+  console.log("same");
+}
+else{
+  console.log("Not same.");
+}
 
 
 
