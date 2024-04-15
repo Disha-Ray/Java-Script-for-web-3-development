@@ -1,3 +1,4 @@
+// 1. aihtmatic operators +  -  *  /
 console.log(2+3);
 const a=10;
 const b=5;
@@ -12,7 +13,8 @@ console.log(8/4);
 const avg=(20+30+10)/3;
 console.log(avg);
 
-//  Random Numbers in javascript
+//  ------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 2. Random Numbers in javascript
 /* The function Math.random generates a number between 0 and 1, not including 1.
 
 If we wanted to generate a random number between 0 and 100, we could simply multiply the output:
@@ -27,14 +29,17 @@ const randomNumber = (Math.random() * 75) + 25;
 
 // Math.floor
 
-//This function will take 2.2598223 and return 2. The function will round a number down to the nearest integer. For example if we had the number, 2.9999, the function will round this input down to 2.
+//This function will take 2.2598223 and return 2. The function will round a number down to the nearest integer. For example if we had the number, 2.9999, 
+//the function will round this input down to 2.
 
 function getFloor(x){
   return Math.floor(x);
 }
 console.log(getFloor(x));
 
-// stricct equality operator 
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 3. strict equality operators ( === and !==) and loose equality operators (== and !=)
+// strict equality operator 
 if(a===b) {                // === operator checks both data type and the value
   console.log("it's same);
   }
@@ -49,6 +54,8 @@ else{
   console.log("Not same.");
 }
 
+console.log(2!==2); // false
+console.log(5!==7); // true
 
 
 
