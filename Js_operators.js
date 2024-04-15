@@ -56,6 +56,16 @@ else{
 
 console.log(2!==2); // false
 console.log(5!==7); // true
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+// 4. Relational operators
+console.log(4>2); // true
+console.log(16<10); // false
+
+// >= and <= 
+console.log( a >= b);
+console.log( a <= b);
+
+
 
 
 
