@@ -26,3 +26,27 @@ for(let i = 1; i <= 5; i++) {
     str += "!";
 }
 console.log(str); // Hello World!!!!!
+
+// modulus
+// find even numbers between 1 and 11
+let count = 0;
+for(let i = 1; i <= 11; i++) {
+    const remainder = i % 2;
+    const isEven = remainder === 0;
+    if(isEven) {
+        count++;
+    }
+}
+console.log(count); 
+// We get a count of 5 because there are 5 even numbers between 1 and 11. The numbers are 2, 4, 6, 8, a////nd 10
+//   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// while loop
+
+function topDouble(value, top) {
+        while (value < top) {
+            value *= 2;
+        }
+        return value / 2;
+    
+}
